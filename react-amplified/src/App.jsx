@@ -54,6 +54,7 @@ function App() {
         <h1>Articles</h1>
         {blogs.map((blog) => (
           <div
+            key={blog.id}
             style={{ border: "1px solid black", padding: 10, borderRadius: 10 }}
           >
             <h2>{blog.title}</h2>
@@ -71,7 +72,9 @@ function App() {
         <hr></hr>
         <ul>
           {messages.map((message) => (
-            <li>{message}</li>
+            <li key={message.id} style={{ color: "red" }}>
+              {message.message}
+            </li>
           ))}
         </ul>
       </div>

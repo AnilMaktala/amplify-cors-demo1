@@ -7,9 +7,9 @@ import { Amplify } from "aws-amplify";
 Amplify.configure({
   API: {
     GraphQL: {
-      endpoint: "https://dcc05l24vsux6.cloudfront.net/graphql",
+      endpoint: "https://d14r4o8aszk29q.cloudfront.net/graphql",
       defaultAuthMode: "apiKey",
-      apiKey: "da2-wla2u3mdrvcc7fv4uzs4rw2grm",
+      apiKey: "da2-nnk5femkwnfevajp4dtntt7z3a",
       region: "us-east-1",
     },
   },
