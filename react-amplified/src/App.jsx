@@ -4,7 +4,7 @@ import { generateClient } from "aws-amplify/api";
 import { listBlogs } from "./graphql/queries";
 import { subscribeToLiveMessages } from "./graphql/subscriptions";
 import { broadcastLiveMessage } from "./graphql/mutations";
-
+//test
 const client = generateClient();
 
 function App() {
