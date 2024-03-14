@@ -72,9 +72,7 @@ function App() {
         <hr></hr>
         <ul>
           {messages.map((message) => (
-            <li key={message.id} style={{ color: "red" }}>
-              {message.message}
-            </li>
+            <li key={message.id}>{message}</li>
           ))}
         </ul>
       </div>
